@@ -1,0 +1,40 @@
+cat >> .gitignore << 'EOF'
+
+# ===== Jest: unit tests (Node, React, NestJS) =====
+coverage/
+.nyc_output/
+junit.xml
+jest-results.json
+.jest-cache/
+jest_*/
+*.lcov
+reports/
+test-report.html
+jest_html_reporters.html
+
+# ===== NestJS: e2e (Jest + Supertest) =====
+test/coverage/
+coverage-e2e/
+test-results/
+
+# ===== React: Testing Library / Vitest =====
+.vitest/
+.vite/
+vitest-results.json
+
+# ===== E2E: Playwright =====
+playwright-report/
+playwright/.cache/
+blob-report/
+/test-results/
+
+# ===== E2E: Cypress =====
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress.env.json
+
+# ===== Snapshots obsoletos / temporales =====
+*.snap.new
+__diff_output__/
+EOF
