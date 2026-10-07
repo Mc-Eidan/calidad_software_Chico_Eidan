@@ -1,4 +1,5 @@
 # Calidad de Software
+# Autor: Eidan Chico
 
 Este repositorio tiene como objetivo presentar conceptos básicos sobre la calidad de software, con especial enfoque en la validación de aplicaciones mediante pruebas unitarias y pruebas end-to-end (E2E).
 
@@ -66,7 +67,7 @@ Las pruebas unitarias validan unidades pequeñas de código, generalmente funcio
 
 - Son rápidas de ejecutar.
 - Ayudan a detectar fallos en etapas tempranas.
-- Mejoran la calidad del código.
+- Mejoran la calidad del código. 
 - Facilitan refactorizaciones.
 
 ### Ejemplo conceptual
